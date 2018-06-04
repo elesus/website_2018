@@ -4,6 +4,11 @@ env: flex
 runtime_config:
   document_root: .
   
+network:
+  instance_tag: webengineapp
+  name: production-vpc
+  subnetwork_name: europe-west1-internal-prod 
+ 
 threadsafe: true
 automatic_scaling:
   min_num_instances: 1
