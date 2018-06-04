@@ -3,3 +3,6 @@ env: flex
 
 runtime_config:
   document_root: .
+  
+skip_files:
+- ^(.*/)?\.yaml$
